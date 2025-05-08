@@ -32,6 +32,9 @@ const nextPosition = (position, setPosition) => {
 };
 
 const previousPosition = (position, setPosition) => {
-  setPosition(position + 1);
+  setPosition(position - 1);
+  if (USERS[position] === 0) {
+    console.log('final');
+  }
 };
 export default UserContainer;
