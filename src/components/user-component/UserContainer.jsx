@@ -41,7 +41,5 @@ const nextPosition = (position, setPosition) => {
 
 const previousPosition = (position, setPosition) => {
 	setPosition(position - 1);
-	if (USERS[position] === 0) {
-	}
 };
 export default UserContainer;
