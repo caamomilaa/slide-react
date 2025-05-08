@@ -1,5 +1,7 @@
+import UserContainer from './components/user-component/UserContainer';
+
 const App = () => {
-  return <h1>React</h1>;
+  return <UserContainer />;
 };
 
 export default App;
